@@ -1,22 +1,33 @@
-# 안전워치 UX 검토·가상 시안
+# 안전워치 가상 시안
 
-## 재로그인 후 작업 재개
+노후건축물 안전진단 업무와 공개 정보조회 흐름을 체험하는 정적 웹 시안입니다.
+건물·점검자료·모델은 가상이며 실제 시스템에 연결되지 않습니다.
 
-**[진행기록 및 재개 안내](진행기록_및_재개안내.md)**를 먼저 읽으세요.
-사용자 요구사항, 검토 결론, 현재 구현, 검증 결과, 다음 작업과 파일 위치를 정리했습니다.
+## GitHub Pages 배포
 
-다음 접속에서 사용할 요청문:
+1. 이 폴더 **안의 파일과 reference 폴더**를 저장소 최상위에 올립니다.
+   최상위에 index.html이 보여야 합니다. ZIP 파일 자체를 올리지 마세요.
+2. 저장소의 Settings → Pages를 엽니다.
+3. Build and deployment의 Source: **Deploy from a branch**.
+4. Branch: **main**, 폴더: **/(root)** → Save.
+   실제 업로드한 브랜치명이 다르면 해당 브랜치를 선택합니다.
+5. 배포가 끝나면 Pages의 Visit site로 접속합니다.
 
-> `/Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/진행기록_및_재개안내.md`를 읽고 안전워치 UX 시안 작업을 이어서 진행해 주세요. 실제 시스템은 조회만 허용합니다.
+일반 저장소 주소: https://계정명.github.io/저장소명/
+계정명.github.io라는 저장소의 주소: https://계정명.github.io/
 
-## 결과물
+빌드 명령·패키지 설치·API 키가 필요하지 않습니다.
+웹 업로드에서 숨김 파일이 빠졌다면 저장소 최상위에 빈 .nojekyll 파일을 추가할 수 있습니다.
+이 시안은 Jekyll 전용 문법이나 밑줄로 시작하는 자산을 사용하지 않습니다.
 
-- [직접 조작하는 시안](workflow.html)
-- [47개 화면과 화면별 개편 이유](screen_gallery.html)
-- [전체 제안서 Markdown](UX_개편_제안서.md) / [웹 문서](report.html) / [PDF](안전워치_UX_개편_제안서.pdf)
-- [지도·sBIM 검토](지도_sBIM_UX_검토.md)
-- [시안 사용 안내](시안_사용_안내.md)
-- [개발 문서 자문](document_advice.md)
+## 체험 범위
 
-시안의 건물·점검자료·모델은 가상이며 실제 시스템과 연결되지 않습니다.
-실제 사이트 탐색 기록은 `evidence/`에 따로 보관되어 있습니다.
+- index.html: 첫 화면
+- workflow.html: 같은 시안 및 기존 단계 미리보기 주소
+- about.html: 사용 안내
+- reference/map/README.md: 지도 경계 출처와 이용 조건
+
+가상 계정의 작업 기록은 브라우저에만 보관됩니다.
+실제 인증·서버 저장·사용자 간 공유 기능은 제공하지 않습니다.
+
+공식 안내: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
