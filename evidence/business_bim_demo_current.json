@@ -1,0 +1,247 @@
+{
+  "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html",
+  "title": "안전워치 — 노후건축물 안전진단 관리 가상 시안",
+  "text": "가상 시안 모든 이름·자료는 예시이며 실제 시스템과 연결되지 않습니다.\n분석 제안서\n이 화면을 바꾼 이유\n전체 화면 순서\n안전워치\n노후건축물 안전진단 관리\n예시시 · 건축안전 담당\n조회범위: 내 담당 / 관할 전체\n로그아웃\n내 업무\n지도 분석\n공개 정보 보기\n← 이전 화면\n돌아갈 곳 · 노후건축물·점검 현황\n업무용 sBIM · 결함 위치와 근거 연결\n예시 주민회관 · 본동\n\n경기도 고양시 일산동구 장항1동 · 예시 안전로 20 · 가상 주소\n\n점검 현황으로 돌아가기\n건축물 동\n본동\n업무유형\n소규모 노후건축물 점검\n점검 회차\n2026년 2회차\n2025년 1회차\n보고서 버전\n현재 v1\n모델 기준\nM-2026.09 · 가상\n결함 위치\n\n2026년 2회차 · 보고서 v1\n\n전체 시점\n결함·확인 항목 전체 · 3건\nF-01 · 1층 계단실 / 벽\nF-02 · 2층 복도 천장 / 슬래브\nF-03 · 옥상 출입구 주변 / 난간\n전체\n1층\n2층\n옥상\nF-01\nF-02\nF-03\n본동 · 전체 / 2026년 2회차\n가상 sBIM · 실제 IFC 모델과 안전진단 결과가 아닙니다.\n회전 28°\n축소\n확대\n\n● 연결 위치　◌ 대략 위치　선택한 결함은 파란색으로 강조합니다.\n\n같은 위치의 이전·이번 회차 관찰값 함께 보기\n모델 로딩 실패 예시\n선택한 위치와 연결된 근거\nF-03 · 옥상 출입구 주변\n위치·사진 확인\n연결 위치 · 가상 매핑\n옥상 출입구\n옥상 난간\n옥상 평면 예시\nF-03 · 현장사진을 대신한 가상 도식\n부재\n난간\n관찰값\n현장 관찰 및 사진 설명\n기록 시점\n2026.09.10 · 예시\n근거 설명\n[가상 예시] 옥상 난간 촬영 위치 기록입니다.\n선택 기록의 근거 상세\n회차·보고서 이력\n\n그림과 측정값은 가상 자료입니다. 실제 점검·진단 결과가 아닙니다.\n\n시안 검토 도구 · 공무원 · 결함 위치와 근거가 연결된 sBIM\n가상 작업은 이 브라우저에 보관 · 실제 서버 전송 없음\n전체 화면 순서\n시안 기록 초기화",
+  "links": [
+    {
+      "text": "분석 제안서",
+      "title": "",
+      "href": "report.html"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이 화면을 바꾼 이유",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전워치\n노후건축물 안전진단 관리",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "로그아웃",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 분석",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "공개 정보 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "previous-screen",
+      "name": "",
+      "text": "← 이전 화면",
+      "aria": "이전 화면: 노후건축물·점검 현황"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검 현황으로 돌아가기",
+      "aria": null
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "model-round",
+      "name": "",
+      "text": "2026년 2회차\n2025년 1회차",
+      "aria": null
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "model-version",
+      "name": "",
+      "text": "현재 v1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 시점",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "F-01 · 1층 계단실 / 벽",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "F-02 · 2층 복도 천장 / 슬래브",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "F-03 · 옥상 출입구 주변 / 난간",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "1층",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "2층",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "옥상",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "range",
+      "id": "work-model-rotation",
+      "name": "",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "축소",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "확대",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "model-compare",
+      "name": "",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "모델 로딩 실패 예시",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "선택 기록의 근거 상세",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "회차·보고서 이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "시안 기록 초기화",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1440,
+    "h": 1000,
+    "sw": 1425,
+    "sh": 1317
+  },
+  "captured_at": "2026-09-15T19:04:17.412210+09:00"
+}

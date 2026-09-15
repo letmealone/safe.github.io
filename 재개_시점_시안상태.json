@@ -1,0 +1,56 @@
+{
+  "saved_at": "2026-09-15T17:23:38.532866+09:00",
+  "scope": "Local fictional prototype only; no website cookies, credentials, or production data.",
+  "prototype": {
+    "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html#home",
+    "context": {
+      "screen": "home",
+      "selected": 2,
+      "selectedDefect": "F-03",
+      "listFilter": "전체",
+      "query": "",
+      "listStatus": "전체",
+      "fieldMode": "항목 기준",
+      "role": "official",
+      "publicQuery": "",
+      "publicFilter": "전체",
+      "publicSelected": 2,
+      "publicRotation": 32,
+      "publicZoom": 1,
+      "publicFloor": 0,
+      "analysisFilter": "전체",
+      "dashboardScope": "mine",
+      "mapViews": {
+        "official": {
+          "area": "janghang1",
+          "query": "",
+          "pick": 2,
+          "viewport": {
+            "x": 10133.82211432084,
+            "y": -3765.692079673636,
+            "w": 0.9318955541525539,
+            "h": 0.564785184334881
+          },
+          "withinView": false
+        }
+      },
+      "workModel": {
+        "building": 2,
+        "round": "2026",
+        "version": "current",
+        "angle": 28,
+        "zoom": 1,
+        "floor": 0,
+        "defect": "F-03",
+        "compare": false,
+        "missing": false
+      }
+    },
+    "signedIn": true,
+    "stagePreview": false,
+    "scrollY": 111,
+    "localStorage": {
+      "safetywatch-ux-v2": "{\"schema\":2,\"case\":{\"phase\":\"shared\",\"field\":true,\"evidence\":true,\"opinion\":\"[가상 예시] 이번 회차의 현장 관찰자료와 이전 기록을 대조했습니다. 위치별 사진과 관찰 내용을 해당 점검 항목에 연결했으며, 추가 확인이 필요한 사항은 별도 검토 항목으로 정리했습니다.\",\"version\":1,\"reviewChecked\":false,\"request\":\"\",\"reply\":\"\",\"snapshots\":[{\"version\":1,\"opinion\":\"[가상 예시] 이번 회차의 현장 관찰자료와 이전 기록을 대조했습니다. 위치별 사진과 관찰 내용을 해당 점검 항목에 연결했으며, 추가 확인이 필요한 사항은 별도 검토 항목으로 정리했습니다.\",\"note\":\"최초 공유본\",\"captions\":{\"F-03\":\"[가상 예시] 옥상 난간 촬영 위치 기록입니다.\"}}],\"events\":[\"v1 보고서 결과 공유 · 예시 B점검기관\"],\"candidate\":false,\"captions\":{}},\"profiles\":{\"agency\":{\"scope\":\"mine\",\"filters\":{\"listFilter\":\"전체\",\"listStatus\":\"전체\",\"query\":\"\"},\"recent\":{\"screen\":\"prep\",\"selected\":2,\"selectedDefect\":\"F-03\",\"listFilter\":\"전체\",\"query\":\"\",\"listStatus\":\"전체\",\"fieldMode\":\"항목 기준\",\"role\":\"agency\"},\"analysis\":{\"screen\":\"region\",\"filter\":\"전체\",\"selected\":1,\"model\":{\"building\":1,\"round\":\"2026\",\"version\":\"current\",\"angle\":28,\"zoom\":1,\"floor\":0,\"defect\":\"F-03\",\"compare\":false,\"missing\":false}},\"updated\":\"09. 15. 16:46\",\"visited\":true,\"map\":{\"area\":\"goyang\",\"query\":\"\",\"pick\":1,\"viewport\":{\"x\":10126.920685481009,\"y\":-3776.5939441633054,\"w\":35.50698875625653,\"h\":21.51938712500396},\"withinView\":false}},\"official\":{\"scope\":\"mine\",\"filters\":{\"listFilter\":\"전체\",\"listStatus\":\"전체\",\"query\":\"\"},\"recent\":{\"screen\":\"review\",\"selected\":2,\"selectedDefect\":\"F-03\",\"listFilter\":\"전체\",\"query\":\"\",\"listStatus\":\"전체\",\"fieldMode\":\"항목 기준\",\"role\":\"official\"},\"analysis\":{\"screen\":\"region\",\"filter\":\"전체\",\"selected\":2,\"model\":{\"building\":2,\"round\":\"2026\",\"version\":\"current\",\"angle\":28,\"zoom\":1,\"floor\":0,\"defect\":\"F-03\",\"compare\":false,\"missing\":false}},\"updated\":\"09. 15. 16:52\",\"visited\":true,\"map\":{\"area\":\"janghang1\",\"query\":\"\",\"pick\":2,\"viewport\":{\"x\":10133.82211432084,\"y\":-3765.692079673636,\"w\":0.9318955541525539,\"h\":0.564785184334881},\"withinView\":false}}},\"drafts\":{}}"
+    }
+  }
+}

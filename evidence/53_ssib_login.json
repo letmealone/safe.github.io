@@ -1,0 +1,86 @@
+{
+  "url": "https://safetywatch.duckdns.org/ssib/bsi/21",
+  "title": "소규모 노후건축물등 점검 지원 시스템",
+  "text": "소규모 노후건축물등 점검 지원 시스템\n\n미천초등학교 현장_BIM_21\n건축물 관리\n현장 조사\n보고서\n마이 메뉴\n건축물 상세 정보\n건축물 관리 건축물 상세 정보\n현장명\n미천초등학교 현장_BIM_21\n건물명\n-\n주소\n도로명\n경기도 고양시 일산동구 성현로482번길 3-9 (사리현동)\n지번\n경기도 고양시 일산동구 사리현동 641-16번지\n상세주소\n규모\n지하\n없음\n지상\n2층\n도면(총0개)\n등록된 도면 파일이 없습니다.\nBIM\n(총2개)\n건축 BIM\nifc check 260320 v11_건축(수정).ifc\n구조 BIM\nifc check 260320 v11_구조.ifc\n건축물대장(PDF)\n건축물대장_서울특별시 동대문구 제기동 287-33.pdf\n취소\n수정",
+  "links": [
+    {
+      "text": "소규모 노후건축물등 점검 지원 시스템",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "건축물 관리",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "현장 조사",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "보고서",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "마이 메뉴",
+      "title": "",
+      "href": "#"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "취소",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "submitBtn",
+      "name": "",
+      "text": "수정",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  },
+  "captured_at": "2026-09-15T13:33:29.837333+09:00"
+}

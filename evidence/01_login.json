@@ -1,0 +1,176 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety/adminsys/loginPage",
+  "title": "건축물 디지털 안전정보 통합관리",
+  "text": "시스템 로그인\n\n디지털 안전워치 플랫폼에 오신 것을 환영합니다.\n\n아이디\n비밀번호\n로그인\n\n계정이 없으신가요? 회원가입\n\n건축물 디지털 안전정보 통합관리\n\n광역단위 노후 건축물\n디지털 안전워치 플랫폼\n\n안전워치는 체계적인 데이터를 기반으로 건축물 관리법에 따라 정기적으로 실시되는 점검과\n필요에 따라 추가적인 정밀 안전 진단을 지원하는 서비스입니다.\n\n회원가입\n아이디\n비밀번호\n이름\n이메일\n연락처\n소속 (기업 또는 단체)\n가입 유형\n선택하세요\n공무원\n건설기술연구원\n점검업체\n기타\n이용약관 및 개인정보처리방침 에 동의합니다\n회원가입\n\n이미 계정이 있으신가요? 로그인\n\n디지털 안전워치 포탈\n디지털 트윈 플랫폼\n건설기술연구원\n\n건축물 디지털 안전정보 통합관리\n\n광역단위 노후 건축물\n디지털 안전워치 플랫폼\n\n안전워치는 체계적인 데이터를 기반으로 건축물 관리법에 따라 정기적으로 실시되는 점검과\n필요에 따라 추가적인 정밀 안전 진단을 지원하는 서비스입니다.",
+  "links": [
+    {
+      "text": "",
+      "title": "",
+      "href": "./oauth2/authorization/google"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": "./oauth2/authorization/kakao"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": "./oauth2/authorization/naver"
+    },
+    {
+      "text": "이용약관 ",
+      "title": "",
+      "href": "#"
+    },
+    {
+      "text": "개인정보처리방침 ",
+      "title": "",
+      "href": "#"
+    },
+    {
+      "text": "디지털 안전워치 포탈",
+      "title": "",
+      "href": "https://safetywatch.duckdns.org/"
+    },
+    {
+      "text": "디지털 트윈 플랫폼",
+      "title": "",
+      "href": "https://safetywatch.duckdns.org/safety/"
+    },
+    {
+      "text": "건설기술연구원",
+      "title": "",
+      "href": "https://www.kict.re.kr/"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "username",
+      "name": "username",
+      "text": "",
+      "placeholder": "이메일을 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "id": "password",
+      "name": "password",
+      "text": "",
+      "placeholder": "비밀번호를 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "로그인",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "switchToSignup",
+      "name": "",
+      "text": "회원가입",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "signup-id",
+      "name": "",
+      "text": "",
+      "placeholder": "아이디을 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "id": "signup-password",
+      "name": "",
+      "text": "",
+      "placeholder": "비밀번호를 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "name",
+      "name": "",
+      "text": "",
+      "placeholder": "이름을 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "id": "email",
+      "name": "",
+      "text": "",
+      "placeholder": "이메일을 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "phone",
+      "name": "",
+      "text": "",
+      "placeholder": "연락처를 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "org-name",
+      "name": "",
+      "text": "",
+      "placeholder": "소속을 입력하세요",
+      "aria": null
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "org-type",
+      "name": "",
+      "text": "선택하세요\n공무원\n건설기술연구원\n점검업체\n기타",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "terms",
+      "name": "",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "회원가입",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "switchToLogin",
+      "name": "",
+      "text": "로그인",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1440,
+    "h": 913,
+    "sw": 1440,
+    "sh": 913
+  }
+}

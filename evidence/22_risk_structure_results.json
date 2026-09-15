@@ -1,0 +1,479 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety2/risk-map",
+  "title": "디지털 안전워치 플랫폼",
+  "text": "건축물 위험도 평가\n\n스마트 검색\nView notifications\n1\n사용자 메뉴\n지도 홈\nsBIM\n스마트 검색\n안전관리 업무\n건축물 위험도 평가\n민간 자가점검\n플랫폼\n위도 37.65°\n|\n경도 126.84°\n|\n고도 194 m\n1\n분야\n내진성능평가\n화재위험도 평가\n위험건축물 선별\n시특법\n2\n구분\n구조\n화재\n3\n상세\n전체\nA등급\nB등급\nC등급\nD등급\nE등급\n조회\n총 15,638건\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 덕은동 172-2\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 내유동 648-3\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 행신동 656-3\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 효자동 207-5\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 동산동 53-48\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 관산동 672-1\n\nMK명가빌리지\n\nD등급\n\n경기도 고양시 덕양구 관산동 193-23\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 주교동 621-3\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 동산동 52-45\n\n(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 벽제동 478\n\n1\n2\n3\n4\n5\n\n구조\n\nA등급\nB등급\nC등급\nD등급\nE등급",
+  "links": [],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "View notifications\n1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "사용자 메뉴",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "홈으로 이동"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 홈",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "sBIM",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전관리 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물 위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "민간 자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "플랫폼",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Toggle dark mode"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내진성능평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "화재위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "위험건축물 선별",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "시특법",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "구조",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "화재",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "A등급",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "B등급",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "C등급",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "D등급",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "E등급",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "조회",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "text": "",
+      "placeholder": "건물명 또는 주소 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 덕은동 172-2",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 내유동 648-3",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 행신동 656-3",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 효자동 207-5",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 동산동 53-48",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 관산동 672-1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "MK명가빌리지\n\nD등급\n\n경기도 고양시 덕양구 관산동 193-23",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 주교동 621-3",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 동산동 52-45",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\nC등급\n\n경기도 고양시 덕양구 벽제동 478",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "2",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "3",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "4",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "5",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety2/safety-map",
+  "title": "디지털 안전워치 플랫폼",
+  "text": "안전관리 업무\n\n스마트 검색\nView notifications\n1\n사용자 메뉴\n지도 홈\nsBIM\n스마트 검색\n안전관리 업무\n건축물 위험도 평가\n민간 자가점검\n플랫폼\n위도 37.51°\n|\n경도 126.74°\n|\n고도 15,150 m\n1\n분야\n건관법 안전관리\n3종건축물 지정 실태조사\n녹색건출물\n위반건축물\n2\n구분\n진행 현황\n점검 여부\n용도\n경과년수\n3\n상세\n전체\n점검예정\n기한도래\n기한초과\n점검완료\n대상제외\n조회\n총 580건\n\n다인타운\n\n점검완료\n\n경기도 고양시 일산동구 풍동 1293\n\n한강 능곡역 성원상떼빌 1단지\n\n점검완료\n\n경기도 고양시 덕양구 토당동 342-7\n\n성도빌딩\n\n점검완료\n\n경기도 고양시 일산동구 중산동 1696\n\n풍산프라자\n\n점검완료\n\n경기도 고양시 일산동구 중산동 1806\n\n광은교회일산성전\n\n점검완료\n\n경기도 고양시 일산동구 마두동 735\n\n(건물명 없음)\n\n점검완료\n\n경기도 고양시 일산동구 백석동 1296-1\n\n성사동 세띠앙주상복합\n\n기한초과\n\n경기도 고양시 덕양구 성사동 707-9\n\n노블리제\n\n점검완료\n\n경기도 고양시 일산동구 장항동 734-1\n\n하림이벨리지타운\n\n점검완료\n\n경기도 고양시 덕양구 성사동 707-11\n\n하늘마을7단지 중흥에스클래스타운하우스\n\n점검완료\n\n경기도 고양시 일산동구 중산동 1720\n\n1\n2\n3\n4\n5\n\n진행 현황\n\n점검예정\n기한도래\n기한초과\n점검완료\n대상제외",
+  "links": [],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "View notifications\n1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "사용자 메뉴",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "홈으로 이동"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 홈",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "sBIM",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전관리 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물 위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "민간 자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "플랫폼",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Toggle dark mode"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건관법 안전관리",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "3종건축물 지정 실태조사",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "녹색건출물",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "위반건축물",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "진행 현황",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검 여부",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "용도",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "경과년수",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검예정",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "기한도래",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "기한초과",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검완료",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "대상제외",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "조회",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "text": "",
+      "placeholder": "건물명 또는 주소 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "다인타운\n\n점검완료\n\n경기도 고양시 일산동구 풍동 1293",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "한강 능곡역 성원상떼빌 1단지\n\n점검완료\n\n경기도 고양시 덕양구 토당동 342-7",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "성도빌딩\n\n점검완료\n\n경기도 고양시 일산동구 중산동 1696",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "풍산프라자\n\n점검완료\n\n경기도 고양시 일산동구 중산동 1806",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "광은교회일산성전\n\n점검완료\n\n경기도 고양시 일산동구 마두동 735",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "(건물명 없음)\n\n점검완료\n\n경기도 고양시 일산동구 백석동 1296-1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "성사동 세띠앙주상복합\n\n기한초과\n\n경기도 고양시 덕양구 성사동 707-9",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "노블리제\n\n점검완료\n\n경기도 고양시 일산동구 장항동 734-1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "하림이벨리지타운\n\n점검완료\n\n경기도 고양시 덕양구 성사동 707-11",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "하늘마을7단지 중흥에스클래스타운하우스\n\n점검완료\n\n경기도 고양시 일산동구 중산동 1720",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "2",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "3",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "4",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "5",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  }
+}

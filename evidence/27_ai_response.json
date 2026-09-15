@@ -1,0 +1,263 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety2/smart-search",
+  "title": "디지털 안전워치 플랫폼",
+  "text": "스마트 검색\n\n스마트 검색\nView notifications\n1\n사용자 메뉴\n지도 홈\nsBIM\n스마트 검색\n안전관리 업무\n건축물 위험도 평가\n민간 자가점검\n플랫폼\n위도 37.65°\n|\n경도 126.84°\n|\n고도 194 m\n\nAI 스마트 검색\n\n건축물 안전관리 어시스턴트\n\n경과년수가 20년 이상이며 진행현황이 점검완료인 건물 찾아줘\n\n검색 결과가 없습니다.\n\n건축물관리법 제10조 설명해줘\n지영동 건물 목록을 보여주고, 건축물 해체 신고와 허가 차이도 알려줘\n연면적 상위 10개 건물 보여줘",
+  "links": [],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "View notifications\n1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "사용자 메뉴",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "홈으로 이동"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 홈",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "sBIM",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전관리 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물 위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "민간 자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "플랫폼",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Toggle dark mode"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물관리법 제10조 설명해줘",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지영동 건물 목록을 보여주고, 건축물 해체 신고와 허가 차이도 알려줘",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "연면적 상위 10개 건물 보여줘",
+      "aria": null
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "name": "",
+      "text": "",
+      "placeholder": "메시지를 입력하세요...",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Send message"
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  }
+}

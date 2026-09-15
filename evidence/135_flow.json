@@ -1,0 +1,230 @@
+{
+  "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html",
+  "title": "안전워치 — 로그인부터 결과 검토까지 가상 시안",
+  "text": "가상 시안 모든 이름·자료는 예시이며 실제 시스템과 연결되지 않습니다.\n분석 제안서\n이 화면을 바꾼 이유\n전체 화면 순서\n안전워치\n건축물 안전관리 업무 지원\n예시 B점검기관 · 점검 담당\n범위: 내 기관 담당·공유 건 · 전문기관\n전문기관 업무\n내 업무\n건축물·점검 현황\n점검결과·보고서\n건축물·점검 이력\n자료 확인\n연결 확인이 필요한 자료\n2026년 업무 자료\n건축물 · 동 · 업무유형 · 회차를 기준으로 연결합니다.\n점검 목록 / 소규모 노후건축물 점검 / 2026년 2회차\n소규모 노후건축물 점검 · 2026년 2회차\n예시 주민회관 · 본동\n예시시 안전로 20 · 현장: 예시시 공공시설 점검사업\n자료·보고서 준비\n담당기관 예시 B점검기관\n일정 사업 일정 2026.09.30\n자료 기준일 2026.09.15\n현장자료 확인\n확인 완료\n보고서\n의견 작성 필요\n플랫폼 내 결과 검토\n자료·보고서 준비\nBLCM 법정 처리\n별도 확인\n업무 요약\n현장 준비\n현장조사·결함\n보고서\n이전 회차·이력\n업무 화면 순서 · 파란색은 현재 열람 위치\n1. 현장 준비\n2. 현장자료 확인\n3. 보고서 준비\n4. 결과 공유\n5. 검토·보완\n6. 검토 완료\n보고서 준비\n작업본 v1\n\n현장 근거와 의견을 정리한 뒤 공유본을 확인합니다.\n\n확인 항목\t현재 상태\t해당 화면\n대상·동·회차\t확인됨\t개요\n현장 근거 3건\t확인됨\t근거 확인\n현장자료 확인 마침\t완료\t현장자료\n종합 의견\t작성 필요\t아래 의견 영역\n현재 화면은 보고 준비를 돕습니다.\n세부 점검표·산정 규칙은 해당 업무의 기존 SSIB 양식을 사용합니다. 자료 준비 상태를 법정 제출 가능 여부와 동일하게 표시하지 않습니다.\n연결된 현장 근거\n현재 보고서 미리보기\n종합 의견\n이번 회차 관찰 결과의 정리\n의견 정리 반영\n가상 예시문 보기\n의견에 연결되는 근거\n업무 요약\n공유 전 확인\n\n작성 내용은 브라우저를 새로 열면 초기화됩니다. 서버 저장·다운로드·외부 제출을 실행하지 않습니다.\n\n시안 검토 도구 · 전문기관 화면 · 보고서 준비\n가상 자료만 사용 · 새로고침하면 초기화 · 외부 통신·저장 없음\n전체 화면 순서\n처음으로 초기화",
+  "links": [
+    {
+      "text": "분석 제안서",
+      "title": "",
+      "href": "report.html"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이 화면을 바꾼 이유",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물·점검 현황",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검결과·보고서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물·점검 이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "연결 확인이 필요한 자료",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검 목록",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "업무 요약",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현장 준비",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현장조사·결함",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "보고서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이전 회차·이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "개요",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "근거 확인",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현장자료",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "연결된 현장 근거",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현재 보고서 미리보기",
+      "aria": null
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "opinion",
+      "name": "",
+      "text": "",
+      "placeholder": "가상 의견을 확인하거나 입력할 수 있습니다.",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "의견 정리 반영",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "가상 예시문 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "업무 요약",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "공유 전 확인",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "처음으로 초기화",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1366,
+    "h": 900,
+    "sw": 1351,
+    "sh": 1366
+  },
+  "captured_at": "2026-09-15T14:31:40.790758+09:00"
+}

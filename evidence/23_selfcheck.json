@@ -1,0 +1,430 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety2/self-inspect",
+  "title": "디지털 안전워치 플랫폼",
+  "text": "민간 자가점검\n\n스마트 검색\nView notifications\n1\n사용자 메뉴\n지도 홈\nsBIM\n스마트 검색\n안전관리 업무\n건축물 위험도 평가\n민간 자가점검\n플랫폼\n위도 37.65°\n|\n경도 126.84°\n|\n고도 194 m\n민간건축물 관리점검 지원서비스 ()\n자가점검\n수선 방법 알아보기\n주요구조부재\n비구조부재\n옹벽과 석축\n부대/기타시설\n결과\n주요구조부재\n\n기둥, 보, 슬래브 등 건축물의 하중을 지지하는 핵심 구조부재\n\nQ1.기둥·보 등 주요 구조부재의 균열 (폭 0.3mm 기준)\n\n양호\n보통\n불량\n해당없음\n\nQ2.철근 노출 및 부식 흔적\n\n양호\n보통\n불량\n해당없음\n\nQ3.콘크리트 단면 결손·박리·박락\n\n양호\n보통\n불량\n해당없음\n\nQ4.누수 및 백태(누수 흔적)\n\n양호\n보통\n불량\n해당없음\n다음",
+  "links": [],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "View notifications\n1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "사용자 메뉴",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "홈으로 이동"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 홈",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "sBIM",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전관리 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물 위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "민간 자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "플랫폼",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Toggle dark mode"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Close modal"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "수선 방법 알아보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "비구조부재",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "옹벽과 석축",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "부대/기타시설",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "결과",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M1",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M1",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M1",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M1",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M2",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M2",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M2",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M2",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M3",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M3",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M3",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M3",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M4",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M4",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M4",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "M4",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "다음",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  }
+}

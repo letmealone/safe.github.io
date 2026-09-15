@@ -1,0 +1,327 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety2/self-inspect",
+  "title": "디지털 안전워치 플랫폼",
+  "text": "민간 자가점검\n\n스마트 검색\nView notifications\n1\n사용자 메뉴\n지도 홈\nsBIM\n스마트 검색\n안전관리 업무\n건축물 위험도 평가\n민간 자가점검\n플랫폼\n위도 37.65°\n|\n경도 126.84°\n|\n고도 194 m\n민간건축물 관리점검 지원서비스 ()\n자가점검\n수선 방법 알아보기\n결함별 수선 공법\n\n주요구조부재/옹벽\n\n균열(0.3mm 미만) 표면처리공법\n\n20,072원/m\n\n주요구조부재\n\n철근콘크리트 균열(0.3mm 초과) 충전·주입공법\n\n22,000원/m\n\n주요구조부재/옹벽\n\n단면결손(철근노출 없음) 단면복구공법\n\n20,072원/㎡\n\n주요구조부재\n\n철근콘크리트 단면결손 보수(시공업체)\n\n166,112원/㎡\n\n부대/기타시설\n\n조적조 담장 균열보수 표면처리공법\n\n18,500원/m\n\n비구조부재\n\n마감재 오염·표면훼손·줄눈훼손 보수\n\n11,000원/㎡\n\n주요구조부재\n\n목구조 균열 보수\n\n20,072원/m\n\n주요구조부재\n\n목구조 부식·단면결손 보수\n\n70,000원/ea\n\n옹벽과 석축\n\n석축 구조물 균열 보수\n\n11,139원/m\n\n옹벽과 석축\n\n석축 배부름·배수구 막힘 보수\n\n180,000원/식\n개략 수선 비용 산정\n\n균열(0.3mm 미만) 표면처리공법\n\n단가 20,072원 / m\n\n수량 (m)\n\n예상 수선 비용\n\n-\n\n본 금액은 단가(원본 자료 기준) × 수량으로 산출한 개략 추정치이며, 현장 여건과 시공업체에 따라 실제 비용은 달라질 수 있습니다.",
+  "links": [],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "View notifications\n1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "사용자 메뉴",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "홈으로 이동"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 홈",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "sBIM",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전관리 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물 위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "민간 자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "플랫폼",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Toggle dark mode"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Close modal"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "자가점검",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "수선 방법 알아보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재/옹벽\n\n균열(0.3mm 미만) 표면처리공법\n\n20,072원/m",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재\n\n철근콘크리트 균열(0.3mm 초과) 충전·주입공법\n\n22,000원/m",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재/옹벽\n\n단면결손(철근노출 없음) 단면복구공법\n\n20,072원/㎡",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재\n\n철근콘크리트 단면결손 보수(시공업체)\n\n166,112원/㎡",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "부대/기타시설\n\n조적조 담장 균열보수 표면처리공법\n\n18,500원/m",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "비구조부재\n\n마감재 오염·표면훼손·줄눈훼손 보수\n\n11,000원/㎡",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재\n\n목구조 균열 보수\n\n20,072원/m",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "주요구조부재\n\n목구조 부식·단면결손 보수\n\n70,000원/ea",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "옹벽과 석축\n\n석축 구조물 균열 보수\n\n11,139원/m",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "옹벽과 석축\n\n석축 배부름·배수구 막힘 보수\n\n180,000원/식",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "number",
+      "id": "",
+      "name": "",
+      "text": "",
+      "placeholder": "보수 물량을 m 단위로 입력",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  }
+}

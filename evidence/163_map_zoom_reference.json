@@ -1,0 +1,1163 @@
+{
+  "url": "https://developers.google.com/maps/documentation/javascript/interaction",
+  "title": "확대/축소 및 화면 이동 관리  |  Maps JavaScript API  |  Google for Developers",
+  "text": "기본 콘텐츠로 건너뛰기\n\ndevelopers.google.com 은(는) 서비스 제공 및 서비스 품질 개선과 트래픽 분석을 위해 쿠키를 사용합니다. 동의 시 광고를 게재하고 표시되는 콘텐츠 및 광고를 맞춤설정하는 데도 쿠키가 사용됩니다. 자세히 알아보세요\n\n동의함\n나중에\nMaps Platform\n제품\n가격 책정\n문서\n블로그\n커뮤니티\n/\n로그인\nWeb\nMaps JavaScript API\n시작하기\n영업팀에 문의\n가이드\n참조\n샘플\n리소스\n기존\nMaps JavaScript API\n개요\nJavaScript API 설정\n지도 데모 키 가져오기 및 사용하기\nApp Check을 사용하여 API 키 보호\nMaps JavaScript API 로드하기\n오류 처리\n문제 해결\n튜토리얼\nHTML을 사용하여 마커가 포함된 Google 지도 추가\nJavaScript를 사용하여 마커가 포함된 Google 지도 추가\nReact 앱에 Google 지도 추가\n현재 위치 표시\n마커 클러스터링\n개념\n버전 관리\n현지화\n권장사항\nTypeScript\n프로미스\n기본 지도\n웹페이지에 Google 지도 추가하기\n지도 이벤트\n지도 컨트롤\n컨트롤 확대/축소 및 화면 이동\n렌더링 유형 (래스터 및 벡터)\n지도 유형\n지도 색 구성표\n지도 및 타일 좌표\n지도 맞춤설정\n3D 지도 사용\n개요\n시작하기\n개념\n기본 3D 지도\n마커\n지도에 그리기\n리소스\n마커\n개요\n시작하기\n지도에 마커 추가하기\n기본 마커 맞춤설정\n그래픽으로 마커 만들기\nHTML 및 CSS로 마커 만들기\n충돌 동작, 고도 및 표시 여부 관리\n마커를 클릭 가능하도록 설정하고 마커에 접근성 기능 추가\n마커를 드래그할 수 있도록 설정\n고급 마커로 이전\n마커 (기존)\n장소 사용\n개요\n장소 (신규)\n장소 UI 키트\n장소 가이드\n경로 작업\n개요\n시작하기\n데모 보기\n경로 클래스\nRoute Matrix 클래스\n이전 가이드\n리소스\n주소 검증\n개요\n데모 보기\n시작하기\n주소 확인\n기본 응답 이해하기\n유효성 검사 응답 처리\n미국 주소 처리\n국가 및 지역\n지도에 그리기\n개요\n정보 창\n도형 및 선\n기호\nWebGL 기능\nDeck.gl 데이터 시각화\n지면 오버레이\n맞춤 오버레이\n맞춤 범례 추가\n데이터 표시\n개요\n데이터 세트를 위한 데이터 기반 스타일 지정\n경계를 위한 데이터 기반 스타일 지정\nKML\nGeoJSON\n데이터 레이어\n히트맵 (지원 중단됨)\n교통정보, 대중교통, 자전거 레이어\n서비스\n고도\n지오코딩\n최대 확대/축소 이미지\n스트리트 뷰\n추가 라이브러리\n개요\n공기질 측정기 위젯 (실험용)\n그리기 라이브러리 (지원 중단됨)\n도형 라이브러리\n시각화 라이브러리 (지원 중단됨)\n오픈소스 라이브러리\n더 많은 가이드\nGoogle 로더 이전 가이드\n장소 필드 이전 (open_now, utc_offset)\nv2에서 v3으로 업그레이드\n Google은 AI 기술을 사용하여 콘텐츠를 사용자의 기본 언어로 번역합니다. AI 번역에는 오류가 있을 수 있습니다.\n홈\n제품\nGoogle Maps Platform\n문서\nWeb\nMaps JavaScript API\n도움이 되었나요?\n의견 보내기\n확대/축소 및 화면 이동 관리\n플랫폼 선택: Android iOS JavaScript\n\n개요\n\n웹페이지에서 지도를 사용하려면 사용자가 확대/축소 및 화면 이동을 위해 지도와 상호작용하는 방식을 관리하는 특정 옵션이 필요할 수도 있습니다. 이러한 옵션(예: gestureHandling, minZoom, maxZoom, restriction)은 MapOptions 인터페이스 내에서 정의됩니다.\n\n기본 동작\n\n다음 지도는 정의된 zoom 및 center 옵션만 사용하여 인스턴스화된 지도와의 상호작용에 대한 기본 동작을 보여줍니다.\n\n다음은 이 지도에 대한 코드입니다.\n\nTypeScript\nJavaScript\nnew google.maps.Map(document.getElementById(\"map\")!, {\n  zoom,\n  center,\n});\nindex.ts\n참고: TypeScript 및 Google 지도 사용에 관한 가이드를 읽어 보세요.\n\n동작 처리 관리\n\n사용자가 지도가 포함된 페이지를 스크롤할 때 스크롤 작업으로 인해 의도치 않게 지도가 확대/축소될 수 있습니다. 이 동작은 gesturehandling 지도 옵션을 사용하여 관리할 수 있습니다.\n\ngestureHandling: cooperative\n\n아래 지도에서는 cooperative로 설정된 gesturehandling 옵션을 사용하여 사용자가 지도를 확대/축소하거나 화면 이동하지 않고 정상적으로 페이지를 스크롤할 수 있도록 합니다. 사용자는 확대/축소 컨트롤을 클릭하여 지도를 확대/축소할 수 있습니다. 또한 터치 스크린 기기에서 지도를 두 손가락으로 움직여 확대/축소하고 화면 이동할 수도 있습니다.\n\n다음은 이 지도에 대한 코드입니다.\n\nTypeScript\nJavaScript\nnew google.maps.Map(document.getElementById(\"map\")!, {\n  zoom,\n  center,\n  gestureHandling: \"cooperative\",\n});\nindex.ts\n참고: TypeScript 및 Google 지도 사용에 관한 가이드를 읽어 보세요.\n\n샘플 보기\n\ngestureHandling: auto\n\ngestureHandling 옵션이 없는 페이지 상단 지도의 동작은 이 페이지의 모든 지도가 <iframe> 내에 있기 때문에 gestureHandling이 cooperative로 설정된 이전 지도와 동일합니다. 기본 gesturehandling 값 auto는 지도가 <iframe> 내에 포함되어 있는지에 따라 greedy나 cooperative로 전환됩니다.\n\n지도가 <iframe> 내에 포함됨\t동작\n예\tcooperative\n아니요\tgreedy\ngestureHandling: greedy\n\n다음은 gestureHandling이 greedy로 설정된 지도입니다. 이 지도는 cooperative와 달리 모든 터치 동작과 스크롤 이벤트에 반응합니다.\n\ngestureHandling: none\n\ngesturehandling 옵션을 none으로 설정하여 지도에서 동작을 사용 중지할 수도 있습니다.\n\n참고: gestureHandling 옵션은 스트리트 뷰 서비스에 적용되지 않습니다.\n화면 이동 및 확대/축소 사용 중지\n\n지도 화면 이동 및 확대/축소 기능을 완전히 사용 중지하려면 gestureHandling 및 zoomControl을 포함해야 합니다.\n\nTypeScript\nJavaScript\nnew google.maps.Map(document.getElementById(\"map\")!, {\n  zoom,\n  center,\n  gestureHandling: \"none\",\n  zoomControl: false,\n});\nindex.ts\n참고: TypeScript 및 Google 지도 사용에 관한 가이드를 읽어 보세요.\n\n아래 지도는 위의 코드에서 gestureHandling 및 zoomControl의 조합을 보여줍니다.\n\n지도 경계 및 확대/축소 제한\n\n동작과 확대/축소 컨트롤을 허용하되 지도를 특정 경계 또는 최소 및 최대 확대/축소로 제한하는 것이 바람직할 수도 있습니다. 이렇게 하려면 restriction, minZoom, 및 maxZoom 옵션을 설정하세요. 다음 코드와 지도는 이러한 옵션을 보여줍니다.\n\nTypeScript\nJavaScript\nnew google.maps.Map(document.getElementById(\"map\")!, {\n  zoom,\n  center,\n  minZoom: zoom - 3,\n  maxZoom: zoom + 3,\n  restriction: {\n    latLngBounds: {\n      north: -10,\n      south: -40,\n      east: 160,\n      west: 100,\n    },\n  },\n});\nindex.ts\n참고: TypeScript 및 Google 지도 사용에 관한 가이드를 읽어 보세요.\n\n도움이 되었나요?\n의견 보내기\n\n달리 명시되지 않는 한 이 페이지의 콘텐츠에는 Creative Commons Attribution 4.0 라이선스에 따라 라이선스가 부여되며, 코드 샘플에는 Apache 2.0 라이선스에 따라 라이선스가 부여됩니다. 자세한 내용은 Google Developers 사이트 정책을 참조하세요. 자바는 Oracle 및/또는 Oracle 계열사의 등록 상표입니다.\n\n최종 업데이트: 2026-09-12(UTC)\n\nStack Overflow\ngoogle-maps 태그를 붙여 질문합니다.\nGitHub\n샘플을 포크하여 직접 시험해 봅니다.\nDiscord\nGoogle Maps Platform에 대해 동료 개발자와 채팅합니다.\nIssue Tracker\n문제가 발생한 경우 버그를 신고해 주세요.\n자세히 알아보기\nFAQ\nAPI 선택기\n튜토리얼\n플랫폼\nAndroid\niOS\nWeb\n웹 서비스\n제품 정보\n가격 및 플랜\n영업팀에 문의\n지원\n서비스 약관\nAndroid\nChrome\nFirebase\nGoogle Cloud Platform\nGoogle AI\n모든 제품\n약관\n개인정보처리방침\n쿠키 관리\n정보\n채팅\nAPI\n페이지 정보\nbug_report\nfullscreen\nclose\n이 페이지의 내용\n개요\n기본 동작\n동작 처리 관리\ngestureHandling: cooperative\ngestureHandling: auto\ngestureHandling: greedy\ngestureHandling: none\n화면 이동 및 확대/축소 사용 중지\n지도 경계 및 확대/축소 제한",
+  "links": [
+    {
+      "text": "기본 콘텐츠로 건너뛰기",
+      "title": "",
+      "href": "#main-content"
+    },
+    {
+      "text": "자세히 알아보세요",
+      "title": "",
+      "href": "https://policies.google.com/technologies/cookies?hl=ko"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": "https://developers.google.com/maps?hl=ko"
+    },
+    {
+      "text": "Maps Platform",
+      "title": "",
+      "href": "https://developers.google.com/maps?hl=ko"
+    },
+    {
+      "text": "제품",
+      "title": "",
+      "href": "https://mapsplatform.google.com/maps-products/?hl=ko"
+    },
+    {
+      "text": "가격 책정",
+      "title": "",
+      "href": "https://mapsplatform.google.com/pricing/?hl=ko"
+    },
+    {
+      "text": "문서",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation?hl=ko"
+    },
+    {
+      "text": "블로그",
+      "title": "",
+      "href": "https://mapsplatform.google.com/resources/blog?hl=ko"
+    },
+    {
+      "text": "커뮤니티",
+      "title": "",
+      "href": "https://developers.google.com/maps/developer-community?hl=ko"
+    },
+    {
+      "text": "로그인",
+      "title": "",
+      "href": "https://developers.google.com/_d/signin?continue=https%3A%2F%2Fdevelopers.google.com%2Fmaps%2Fdocumentation%2Fjavascript%2Finteraction%3Fhl%3Dko&prompt=select_account"
+    },
+    {
+      "text": "Web",
+      "title": "",
+      "href": "https://developers.google.com/maps/web?hl=ko"
+    },
+    {
+      "text": "Maps JavaScript API",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript?hl=ko"
+    },
+    {
+      "text": "시작하기",
+      "title": "",
+      "href": "https://console.cloud.google.com/google/maps-apis/start?utm_source=Docs_GS_Button&ref=https%3A%2F%2Fdevelopers.google.com%2Fmaps%2F&utm_content=Docs_maps-backend&hl=ko"
+    },
+    {
+      "text": "영업팀에 문의",
+      "title": "",
+      "href": "https://mapsplatform.google.com/contact-us/?hl=ko"
+    },
+    {
+      "text": "가이드",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript?hl=ko"
+    },
+    {
+      "text": "참조",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference?hl=ko"
+    },
+    {
+      "text": "샘플",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/examples?hl=ko"
+    },
+    {
+      "text": "리소스",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/support?hl=ko"
+    },
+    {
+      "text": "기존",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/legacy/places?hl=ko"
+    },
+    {
+      "text": "Maps JavaScript API",
+      "title": "",
+      "href": "/maps/documentation/javascript"
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/overview"
+    },
+    {
+      "text": "JavaScript API 설정",
+      "title": "",
+      "href": "/maps/documentation/javascript/get-api-key"
+    },
+    {
+      "text": "지도 데모 키 가져오기 및 사용하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/demo-key"
+    },
+    {
+      "text": "App Check을 사용하여 API 키 보호",
+      "title": "",
+      "href": "/maps/documentation/javascript/maps-app-check"
+    },
+    {
+      "text": "Maps JavaScript API 로드하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/load-maps-js-api"
+    },
+    {
+      "text": "오류 처리",
+      "title": "",
+      "href": "/maps/documentation/javascript/error-handling"
+    },
+    {
+      "text": "문제 해결",
+      "title": "",
+      "href": "/maps/documentation/javascript/troubleshooting"
+    },
+    {
+      "text": "HTML을 사용하여 마커가 포함된 Google 지도 추가",
+      "title": "",
+      "href": "/maps/documentation/javascript/add-google-map-wc-tut"
+    },
+    {
+      "text": "JavaScript를 사용하여 마커가 포함된 Google 지도 추가",
+      "title": "",
+      "href": "/maps/documentation/javascript/adding-a-google-map"
+    },
+    {
+      "text": "React 앱에 Google 지도 추가",
+      "title": "",
+      "href": "/codelabs/maps-platform/maps-platform-101-react-js"
+    },
+    {
+      "text": "현재 위치 표시",
+      "title": "",
+      "href": "/maps/documentation/javascript/geolocation"
+    },
+    {
+      "text": "마커 클러스터링",
+      "title": "",
+      "href": "/maps/documentation/javascript/marker-clustering"
+    },
+    {
+      "text": "버전 관리",
+      "title": "",
+      "href": "/maps/documentation/javascript/versions"
+    },
+    {
+      "text": "현지화",
+      "title": "",
+      "href": "/maps/documentation/javascript/localization"
+    },
+    {
+      "text": "권장사항",
+      "title": "",
+      "href": "/maps/documentation/javascript/best-practices"
+    },
+    {
+      "text": "TypeScript",
+      "title": "",
+      "href": "/maps/documentation/javascript/using-typescript"
+    },
+    {
+      "text": "프로미스",
+      "title": "",
+      "href": "/maps/documentation/javascript/promises"
+    },
+    {
+      "text": "웹페이지에 Google 지도 추가하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/add-google-map"
+    },
+    {
+      "text": "지도 이벤트",
+      "title": "",
+      "href": "/maps/documentation/javascript/events"
+    },
+    {
+      "text": "지도 컨트롤",
+      "title": "",
+      "href": "/maps/documentation/javascript/controls"
+    },
+    {
+      "text": "컨트롤 확대/축소 및 화면 이동",
+      "title": "",
+      "href": "/maps/documentation/javascript/interaction"
+    },
+    {
+      "text": "렌더링 유형 (래스터 및 벡터)",
+      "title": "",
+      "href": "/maps/documentation/javascript/map-rendering-type"
+    },
+    {
+      "text": "지도 유형",
+      "title": "",
+      "href": "/maps/documentation/javascript/maptypes"
+    },
+    {
+      "text": "지도 색 구성표",
+      "title": "",
+      "href": "/maps/documentation/javascript/mapcolorscheme"
+    },
+    {
+      "text": "지도 및 타일 좌표",
+      "title": "",
+      "href": "/maps/documentation/javascript/coordinates"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/3d/overview"
+    },
+    {
+      "text": "시작하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/3d/get-started"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/overview"
+    },
+    {
+      "text": "시작하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/start"
+    },
+    {
+      "text": "지도에 마커 추가하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/add-marker"
+    },
+    {
+      "text": "기본 마커 맞춤설정",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/basic-customization"
+    },
+    {
+      "text": "그래픽으로 마커 만들기",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/graphic-markers"
+    },
+    {
+      "text": "HTML 및 CSS로 마커 만들기",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/html-markers"
+    },
+    {
+      "text": "충돌 동작, 고도 및 표시 여부 관리",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/collision-behavior"
+    },
+    {
+      "text": "마커를 클릭 가능하도록 설정하고 마커에 접근성 기능 추가",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/accessible-markers"
+    },
+    {
+      "text": "마커를 드래그할 수 있도록 설정",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/draggable-markers"
+    },
+    {
+      "text": "고급 마커로 이전",
+      "title": "",
+      "href": "/maps/documentation/javascript/advanced-markers/migration"
+    },
+    {
+      "text": "마커 (기존)",
+      "title": "",
+      "href": "/maps/documentation/javascript/markers"
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/places-js"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/routes/overview"
+    },
+    {
+      "text": "시작하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/routes/start"
+    },
+    {
+      "text": "데모 보기",
+      "title": "",
+      "href": "/maps/documentation/javascript/routes/demo"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/overview"
+    },
+    {
+      "text": "데모 보기",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/demo"
+    },
+    {
+      "text": "시작하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/start"
+    },
+    {
+      "text": "주소 확인",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/validate-address"
+    },
+    {
+      "text": "기본 응답 이해하기",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/understand-response"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "미국 주소 처리",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/handle-us-address"
+    },
+    {
+      "text": "국가 및 지역",
+      "title": "",
+      "href": "/maps/documentation/javascript/address-validation/coverage"
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/overlays"
+    },
+    {
+      "text": "정보 창",
+      "title": "",
+      "href": "/maps/documentation/javascript/infowindows"
+    },
+    {
+      "text": "도형 및 선",
+      "title": "",
+      "href": "/maps/documentation/javascript/shapes"
+    },
+    {
+      "text": "기호",
+      "title": "",
+      "href": "/maps/documentation/javascript/symbols"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "Deck.gl 데이터 시각화",
+      "title": "",
+      "href": "/maps/documentation/javascript/deckgl-overlay-view"
+    },
+    {
+      "text": "지면 오버레이",
+      "title": "",
+      "href": "/maps/documentation/javascript/groundoverlays"
+    },
+    {
+      "text": "맞춤 오버레이",
+      "title": "",
+      "href": "/maps/documentation/javascript/customoverlays"
+    },
+    {
+      "text": "맞춤 범례 추가",
+      "title": "",
+      "href": "/maps/documentation/javascript/adding-a-legend"
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/layers"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": null
+    },
+    {
+      "text": "데이터 레이어",
+      "title": "",
+      "href": "/maps/documentation/javascript/datalayer"
+    },
+    {
+      "text": "히트맵 (지원 중단됨)",
+      "title": "",
+      "href": "/maps/documentation/javascript/heatmaplayer"
+    },
+    {
+      "text": "교통정보, 대중교통, 자전거 레이어",
+      "title": "",
+      "href": "/maps/documentation/javascript/trafficlayer"
+    },
+    {
+      "text": "고도",
+      "title": "",
+      "href": "/maps/documentation/javascript/elevation"
+    },
+    {
+      "text": "지오코딩",
+      "title": "",
+      "href": "/maps/documentation/javascript/geocoding"
+    },
+    {
+      "text": "최대 확대/축소 이미지",
+      "title": "",
+      "href": "/maps/documentation/javascript/maxzoom"
+    },
+    {
+      "text": "스트리트 뷰",
+      "title": "",
+      "href": "/maps/documentation/javascript/streetview"
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "/maps/documentation/javascript/libraries"
+    },
+    {
+      "text": "공기질 측정기 위젯 (실험용)",
+      "title": "",
+      "href": "/maps/documentation/javascript/air-quality-widget"
+    },
+    {
+      "text": "그리기 라이브러리 (지원 중단됨)",
+      "title": "",
+      "href": "/maps/documentation/javascript/drawinglayer"
+    },
+    {
+      "text": "도형 라이브러리",
+      "title": "",
+      "href": "/maps/documentation/javascript/geometry"
+    },
+    {
+      "text": "시각화 라이브러리 (지원 중단됨)",
+      "title": "",
+      "href": "/maps/documentation/javascript/visualization"
+    },
+    {
+      "text": "오픈소스 라이브러리",
+      "title": "",
+      "href": "/maps/documentation/javascript/libraries-open-source"
+    },
+    {
+      "text": "Google 로더 이전 가이드",
+      "title": "",
+      "href": "/maps/documentation/javascript/google-loader-migration"
+    },
+    {
+      "text": "장소 필드 이전 (open_now, utc_offset)",
+      "title": "",
+      "href": "/maps/documentation/javascript/place_field_js_migration"
+    },
+    {
+      "text": "v2에서 v3으로 업그레이드",
+      "title": "",
+      "href": "/maps/documentation/javascript/v2tov3"
+    },
+    {
+      "text": "홈",
+      "title": "",
+      "href": "https://developers.google.com/?hl=ko"
+    },
+    {
+      "text": "제품",
+      "title": "",
+      "href": "https://developers.google.com/products?hl=ko"
+    },
+    {
+      "text": "Google Maps Platform",
+      "title": "",
+      "href": "https://developers.google.com/maps?hl=ko"
+    },
+    {
+      "text": "문서",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation?hl=ko"
+    },
+    {
+      "text": "Web",
+      "title": "",
+      "href": "https://developers.google.com/maps/web?hl=ko"
+    },
+    {
+      "text": "Maps JavaScript API",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript?hl=ko"
+    },
+    {
+      "text": "Android",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/android-sdk/controls?hl=ko"
+    },
+    {
+      "text": "iOS",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/ios-sdk/controls?hl=ko"
+    },
+    {
+      "text": "JavaScript",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/interaction?hl=ko"
+    },
+    {
+      "text": "MapOptions 인터페이스",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions"
+    },
+    {
+      "text": "TypeScript",
+      "title": "",
+      "href": "#typescript"
+    },
+    {
+      "text": "JavaScript",
+      "title": "",
+      "href": "#javascript"
+    },
+    {
+      "text": "index.ts",
+      "title": "",
+      "href": "https://github.com/googlemaps/js-samples/blob/2683f7366fb27829401945d2a7e27d77ed2df8e5/samples/interaction-default/index.ts#L18-L21"
+    },
+    {
+      "text": "가이드",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/using-typescript?hl=ko"
+    },
+    {
+      "text": "gesturehandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "gesturehandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "TypeScript",
+      "title": "",
+      "href": "#typescript"
+    },
+    {
+      "text": "JavaScript",
+      "title": "",
+      "href": "#javascript"
+    },
+    {
+      "text": "index.ts",
+      "title": "",
+      "href": "https://github.com/googlemaps/js-samples/blob/2683f7366fb27829401945d2a7e27d77ed2df8e5/samples/interaction-cooperative/index.ts#L18-L22"
+    },
+    {
+      "text": "가이드",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/using-typescript?hl=ko"
+    },
+    {
+      "text": "샘플 보기",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/examples/interaction-cooperative?hl=ko"
+    },
+    {
+      "text": "gestureHandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "gesturehandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "gestureHandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "gesturehandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "gestureHandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "zoomControl",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.zoomControl"
+    },
+    {
+      "text": "TypeScript",
+      "title": "",
+      "href": "#typescript"
+    },
+    {
+      "text": "JavaScript",
+      "title": "",
+      "href": "#javascript"
+    },
+    {
+      "text": "index.ts",
+      "title": "",
+      "href": "https://github.com/googlemaps/js-samples/blob/2683f7366fb27829401945d2a7e27d77ed2df8e5/samples/interaction-disable-pan-zoom/index.ts#L13-L18"
+    },
+    {
+      "text": "가이드",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/using-typescript?hl=ko"
+    },
+    {
+      "text": "gestureHandling",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.gestureHandling"
+    },
+    {
+      "text": "zoomControl",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.zoomControl"
+    },
+    {
+      "text": "restriction",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.restriction"
+    },
+    {
+      "text": "minZoom",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.minZoom"
+    },
+    {
+      "text": "maxZoom",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/reference/map?hl=ko#MapOptions.maxZoom"
+    },
+    {
+      "text": "TypeScript",
+      "title": "",
+      "href": "#typescript"
+    },
+    {
+      "text": "JavaScript",
+      "title": "",
+      "href": "#javascript"
+    },
+    {
+      "text": "index.ts",
+      "title": "",
+      "href": "https://github.com/googlemaps/js-samples/blob/2683f7366fb27829401945d2a7e27d77ed2df8e5/samples/interaction-restricted/index.ts#L13-L26"
+    },
+    {
+      "text": "가이드",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/using-typescript?hl=ko"
+    },
+    {
+      "text": "Creative Commons Attribution 4.0 라이선스",
+      "title": "",
+      "href": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "text": "Apache 2.0 라이선스",
+      "title": "",
+      "href": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "text": "Google Developers 사이트 정책",
+      "title": "",
+      "href": "https://developers.google.com/site-policies?hl=ko"
+    },
+    {
+      "text": "Stack Overflow",
+      "title": "",
+      "href": "http://stackoverflow.com/questions/tagged/google-maps"
+    },
+    {
+      "text": "GitHub",
+      "title": "",
+      "href": "https://github.com/googlemaps/"
+    },
+    {
+      "text": "Discord",
+      "title": "",
+      "href": "https://discord.gg/f4hvx8Rp2q"
+    },
+    {
+      "text": "Issue Tracker",
+      "title": "",
+      "href": "https://issuetracker.google.com/issues/new?component=188853&%3Btemplate=788207&hl=ko"
+    },
+    {
+      "text": "FAQ",
+      "title": "",
+      "href": "https://developers.google.com/maps/faq?hl=ko"
+    },
+    {
+      "text": "API 선택기",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/api-picker?hl=ko"
+    },
+    {
+      "text": "튜토리얼",
+      "title": "",
+      "href": "https://developers.google.com/maps/documentation/javascript/tutorials?hl=ko"
+    },
+    {
+      "text": "Android",
+      "title": "",
+      "href": "https://developers.google.com/maps/apis-by-platform?hl=ko#android"
+    },
+    {
+      "text": "iOS",
+      "title": "",
+      "href": "https://developers.google.com/maps/apis-by-platform?hl=ko#ios"
+    },
+    {
+      "text": "Web",
+      "title": "",
+      "href": "https://developers.google.com/maps/apis-by-platform?hl=ko#web_apis"
+    },
+    {
+      "text": "웹 서비스",
+      "title": "",
+      "href": "https://developers.google.com/maps/apis-by-platform?hl=ko#web_service_apis"
+    },
+    {
+      "text": "가격 및 플랜",
+      "title": "",
+      "href": "https://developers.google.com/maps/pricing-and-plans?hl=ko"
+    },
+    {
+      "text": "영업팀에 문의",
+      "title": "",
+      "href": "https://cloud.google.com/contact-maps/?hl=ko"
+    },
+    {
+      "text": "지원",
+      "title": "",
+      "href": "https://developers.google.com/maps/support/?hl=ko"
+    },
+    {
+      "text": "서비스 약관",
+      "title": "",
+      "href": "https://cloud.google.com/maps-platform/terms?hl=ko"
+    },
+    {
+      "text": "",
+      "title": "",
+      "href": "https://developers.google.com/?hl=ko"
+    },
+    {
+      "text": "Android",
+      "title": "",
+      "href": "//developer.android.com?hl=ko"
+    },
+    {
+      "text": "Chrome",
+      "title": "",
+      "href": "//developer.chrome.com/home?hl=ko"
+    },
+    {
+      "text": "Firebase",
+      "title": "",
+      "href": "//firebase.google.com?hl=ko"
+    },
+    {
+      "text": "Google Cloud Platform",
+      "title": "",
+      "href": "//cloud.google.com?hl=ko"
+    },
+    {
+      "text": "Google AI",
+      "title": "",
+      "href": "//ai.google.dev/?hl=ko"
+    },
+    {
+      "text": "모든 제품",
+      "title": "",
+      "href": "https://developers.google.com/products?hl=ko"
+    },
+    {
+      "text": "약관",
+      "title": "",
+      "href": "https://developers.google.com/terms/site-terms?hl=ko"
+    },
+    {
+      "text": "개인정보처리방침",
+      "title": "",
+      "href": "//policies.google.com/privacy?hl=ko"
+    },
+    {
+      "text": "개요",
+      "title": "",
+      "href": "#overview"
+    },
+    {
+      "text": "기본 동작",
+      "title": "",
+      "href": "#default_behavior"
+    },
+    {
+      "text": "동작 처리 관리",
+      "title": "",
+      "href": "#controlling_gesture_handling"
+    },
+    {
+      "text": "gestureHandling: cooperative",
+      "title": "",
+      "href": "#gesturehandling_cooperative"
+    },
+    {
+      "text": "gestureHandling: auto",
+      "title": "",
+      "href": "#gesturehandling_auto"
+    },
+    {
+      "text": "gestureHandling: greedy",
+      "title": "",
+      "href": "#gesturehandling_greedy"
+    },
+    {
+      "text": "gestureHandling: none",
+      "title": "",
+      "href": "#gesturehandling_none"
+    },
+    {
+      "text": "화면 이동 및 확대/축소 사용 중지",
+      "title": "",
+      "href": "#disabling_pan_and_zoom"
+    },
+    {
+      "text": "지도 경계 및 확대/축소 제한",
+      "title": "",
+      "href": "#restricting_map_bounds_and_zoom"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "동의함",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "나중에",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "드롭다운 메뉴: 문서"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "드롭다운 메뉴: 커뮤니티"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "q",
+      "text": "",
+      "placeholder": "검색",
+      "aria": "검색"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "text": "",
+      "placeholder": "필터",
+      "aria": "입력하여 필터링"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "측면 탐색 숨기기"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "도움이 됨"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "도움이 되지 않음"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "의견 보내기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "페이지를 마크다운으로 복사"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "이 섹션에 대한 링크 복사. 개요"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "이 섹션에 대한 링크 복사. 기본 동작"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "코드 설명"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "어두운 코드 테마"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "코드 샘플 복사"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "도움이 됨"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "도움이 되지 않음"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "의견 보내기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "정보",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "채팅",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "API",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "bug_report",
+      "aria": "의견 보내기"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "fullscreen",
+      "aria": "전체 화면"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "close",
+      "aria": "닫기"
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2545,
+    "sh": 6419
+  },
+  "captured_at": "2026-09-15T16:12:13.021275+09:00"
+}

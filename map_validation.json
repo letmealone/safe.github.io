@@ -1,0 +1,244 @@
+{
+  "checks": [
+    {
+      "check": "비로그인 지도는 남한 17개 시도에서 시작",
+      "result": "pass"
+    },
+    {
+      "check": "클릭 탐색 단계 KR-41",
+      "result": "pass"
+    },
+    {
+      "check": "클릭 탐색 단계 goyang",
+      "result": "pass"
+    },
+    {
+      "check": "클릭 탐색 단계 ilsaneast",
+      "result": "pass"
+    },
+    {
+      "check": "클릭 탐색 단계 janghang1",
+      "result": "pass"
+    },
+    {
+      "check": "행정동 선택 시 지도·목록이 같은 대상 집합",
+      "result": "pass"
+    },
+    {
+      "check": "지도 핀 실클릭으로 동을 구분한 요약 열기",
+      "result": "pass"
+    },
+    {
+      "check": "공개 요약에는 비공개 결함 근거 미노출",
+      "result": "pass"
+    },
+    {
+      "check": "공개 지도와 상세가 같은 회차의 공개 기록 표시",
+      "result": "pass"
+    },
+    {
+      "check": "공개 모델은 외형만 제공",
+      "result": "pass"
+    },
+    {
+      "check": "공개 모델에서 원래 지도·선택 요약 복귀",
+      "result": "pass"
+    },
+    {
+      "check": "상위 지역 버튼은 공간 범위를 한 단계 확장",
+      "result": "pass"
+    },
+    {
+      "check": "사례가 없는 시도도 열리고 자료 없음 안내",
+      "result": "pass"
+    },
+    {
+      "check": "주소 검색으로 지역 단계 건너뛰기",
+      "result": "pass"
+    },
+    {
+      "check": "한 건 검색도 주변 행정구역을 알아볼 수 있는 범위 유지",
+      "result": "pass"
+    },
+    {
+      "check": "실제 휠 이벤트로 지도 확대",
+      "result": "pass"
+    },
+    {
+      "check": "휠 확대가 검색어·조회 지역·결과를 바꾸지 않음",
+      "result": "pass"
+    },
+    {
+      "check": "화면 범위 조회 후 지도 이동도 확정된 조회 범위를 유지",
+      "result": "pass"
+    },
+    {
+      "check": "이동 후 전체 조회 수와 화면 안 대상 수 구분 갱신",
+      "result": "pass"
+    },
+    {
+      "check": "공무원은 관할 고양시에서 지도 시작",
+      "result": "pass"
+    },
+    {
+      "check": "업무 요약에서 결함 매핑 sBIM 열기",
+      "result": "pass"
+    },
+    {
+      "check": "옥상 결함의 근거 도식도 옥상 위치로 일치",
+      "result": "pass"
+    },
+    {
+      "check": "층을 바꾸면 해당 층의 모델·근거를 함께 선택",
+      "result": "pass"
+    },
+    {
+      "check": "모델 표시 실클릭으로 같은 결함·층·근거 선택",
+      "result": "pass"
+    },
+    {
+      "check": "결함 목록 선택도 같은 모델 위치 강조",
+      "result": "pass"
+    },
+    {
+      "check": "지난 회차 선택 시 해당 회차 관찰값과 기록 표시",
+      "result": "pass"
+    },
+    {
+      "check": "회차 비교를 켜면 이전·이번 관찰값을 구분하여 제공",
+      "result": "pass"
+    },
+    {
+      "check": "sBIM을 닫으면 같은 지역·시점·검색·건물 요약 복원",
+      "result": "pass"
+    },
+    {
+      "check": "모델 로딩 실패에도 기존 기록 경로 제공",
+      "result": "pass"
+    },
+    {
+      "check": "모델 실패 예시에서 다시 열기 가능",
+      "result": "pass"
+    },
+    {
+      "check": "모델 미등록 건물도 업무 자료 확인 가능",
+      "result": "pass"
+    },
+    {
+      "check": "재로그인 후 지도 탭의 모델·회차·선택 근거 복원",
+      "result": "pass"
+    },
+    {
+      "check": "전문기관 지도는 기관 권한의 두 건만 조회",
+      "result": "pass"
+    },
+    {
+      "check": "모델 직접 호출에도 담당 범위 밖 업무 차단",
+      "result": "pass"
+    },
+    {
+      "check": "확인 전 위치는 정확한 매핑으로 표시하지 않음",
+      "result": "pass"
+    },
+    {
+      "check": "sBIM에서 공유 v1을 선택하면 보완 v2와 원문 구분",
+      "result": "pass"
+    },
+    {
+      "check": "다른 건물의 실제 예시 층수·미연계 보고서 상태를 구분",
+      "result": "pass"
+    },
+    {
+      "check": "구역 위 실드래그로 지도 이동",
+      "result": "pass"
+    },
+    {
+      "check": "지도·sBIM 실행은 외부 서버 요청 없이 동작",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 1 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 33 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 34 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 35 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 36 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 37 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "업무용 1366×768 첫 화면에서 결함 세 항목 선택 가능",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 38 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 39 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 40 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "1366px 지도·모델 단계 41 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 1 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 33 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 34 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 35 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 36 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 37 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 38 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 39 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 40 가로 넘침 없음",
+      "result": "pass"
+    },
+    {
+      "check": "390px 지도·모델 단계 41 가로 넘침 없음",
+      "result": "pass"
+    }
+  ]
+}

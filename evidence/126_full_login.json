@@ -1,0 +1,111 @@
+{
+  "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html",
+  "title": "안전워치 — 로그인부터 결과 검토까지 가상 시안",
+  "text": "가상 시안 모든 이름·자료는 예시이며 실제 시스템과 연결되지 않습니다.\n분석 제안서\n이 화면을 바꾼 이유\n전체 화면 순서\n안전워치\n건축물 안전관리 업무 지원\n업무 계정으로 시작합니다\nLOGIN → MY WORK\n담당 건축물의 점검을\n한 흐름에서 이어갑니다.\n\n지자체의 관할 안전관리와 전문기관의 현장점검·보고서 업무를 지원합니다.\n\n점검유형과 회차별로 현재 업무 확인\n현장사진·이전 기록·BIM 근거 연결\n공유한 보고서와 보완 이력 확인\n로그인\n역할별 메인화면\n담당 점검\n결과·이력\n업무 계정 로그인\n\n아래 역할 선택은 시안 검토용입니다.\n\n지자체 담당자\n전문기관 담당자\n아이디\n비밀번호\n로그인 후 메인화면 보기\n계정 이용 안내\n처음 이용하는 경우\n\n실제 ID·비밀번호를 입력할 필요가 없습니다. 인증과 저장은 실행되지 않습니다.\n\n시안 검토 도구 · 로그인부터 체험할 수 있습니다.\n가상 자료만 사용 · 새로고침하면 초기화 · 외부 통신·저장 없음\n전체 화면 순서\n처음으로 초기화",
+  "links": [
+    {
+      "text": "분석 제안서",
+      "title": "",
+      "href": "report.html"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이 화면을 바꾼 이유",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지자체 담당자",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전문기관 담당자",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "demo-id",
+      "name": "",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "id": "demo-pw",
+      "name": "",
+      "text": "",
+      "placeholder": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "로그인 후 메인화면 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "계정 이용 안내",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "처음 이용하는 경우",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "처음으로 초기화",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1366,
+    "h": 900,
+    "sw": 1366,
+    "sh": 900
+  },
+  "captured_at": "2026-09-15T14:30:55.086413+09:00"
+}

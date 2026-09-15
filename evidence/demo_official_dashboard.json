@@ -1,0 +1,229 @@
+{
+  "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html",
+  "title": "안전워치 — 노후건축물 안전진단 관리 가상 시안",
+  "text": "가상 시안 모든 이름·자료는 예시이며 실제 시스템과 연결되지 않습니다.\n분석 제안서\n이 화면을 바꾼 이유\n전체 화면 순서\n안전워치\n노후건축물 안전진단 관리\n예시시 · 건축안전 담당\n조회범위: 내 담당 / 관할 전체\n로그아웃\n내 업무\n지도 분석\n공개 정보 보기\n← 이전 화면\n돌아갈 곳 · 서비스 메인\n공무원 업무\n내 업무\n노후건축물·점검 현황\n점검결과·보고서\n노후건축물·점검 이력\n자료 확인\n연결 확인이 필요한 자료\n2026년 업무 자료\n건축물 · 동 · 업무유형 · 회차를 기준으로 연결합니다.\n지자체 노후건축물 안전진단 관리\n내 업무 대시보드\n\n이전 조회환경 복원 · 09. 15. 18:49 · 업무 상태는 현재 예시 기준\n\n내 담당\n관할 전체\n이어서 할 업무\n예시 중앙상가 · 가동\n\n정기점검 · 3회차\n\n최근 화면: 한 점검건의 상세 · 이 브라우저에서 이어가기\n\n최근 작업 이어가기\n이전 조회조건 보기\n현재 확인할 변화·요청\n새 공유 결과 1건\n\n주민회관 · 2회차 / 보고서 v1과 연결된 근거를 확인하세요.\n\n최근 작업의 조회조건과 관계없이 표시합니다.\n\n공유 결과 검토\n내 담당 업무\n전체 전체 · 2건 · 현재 상태 기준\n조회조건 변경\n조건 초기화\n건축물·동 / 주소\t업무유형·회차\t기한·일정\t진행상태\t다음 확인\n예시 중앙상가 · 가동\n경기도 고양시 일산동구 장항2동 · 예시 중앙로 10\n\t정기점검\n3회차\n\t2026.09.25\t작성 현황 확인\t기관의 작성 현황 확인\n\n업무 건 열기\n\n\n예시 주민회관 · 본동\n경기도 고양시 일산동구 장항1동 · 예시 안전로 20\n\t소규모 노후건축물 점검\n2026년 2회차\n\t사업 일정 2026.09.30\tv1 결과 공유\t공유된 v1 보고서 검토\n\n업무 건 열기\n\n내 담당은 예시 담당 건, 관할 전체는 소속 지자체의 업무를 보여줍니다.\n\n시안 검토 도구 · 공무원 · 최근 작업을 복원한 업무 대시보드\n가상 작업은 이 브라우저에 보관 · 실제 서버 전송 없음\n전체 화면 순서\n시안 기록 초기화",
+  "links": [
+    {
+      "text": "분석 제안서",
+      "title": "",
+      "href": "report.html"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이 화면을 바꾼 이유",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전워치\n노후건축물 안전진단 관리",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "로그아웃",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "지도 분석",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "공개 정보 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "previous-screen",
+      "name": "",
+      "text": "← 이전 화면",
+      "aria": "이전 화면: 서비스 메인"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "노후건축물·점검 현황",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검결과·보고서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "노후건축물·점검 이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "연결 확인이 필요한 자료",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 담당",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "관할 전체",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "최근 작업 이어가기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이전 조회조건 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "공유 결과 검토",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "조회조건 변경",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "조건 초기화",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "예시 중앙상가 · 가동",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "업무 건 열기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "예시 주민회관 · 본동",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "업무 건 열기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "시안 기록 초기화",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1503,
+    "h": 1322,
+    "sw": 1488,
+    "sh": 1375
+  },
+  "captured_at": "2026-09-15T18:50:23.287261+09:00"
+}

@@ -1,0 +1,189 @@
+{
+  "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html",
+  "title": "안전워치 — 로그인부터 결과 검토까지 가상 시안",
+  "text": "가상 시안 모든 이름·자료는 예시이며 실제 시스템과 연결되지 않습니다.\n분석 제안서\n이 화면을 바꾼 이유\n전체 화면 순서\n안전워치\n건축물 안전관리 업무 지원\n예시 B점검기관 · 점검 담당\n범위: 내 기관 담당·공유 건 · 전문기관\n전문기관 업무\n내 업무\n건축물·점검 현황\n점검결과·보고서\n건축물·점검 이력\n자료 확인\n연결 확인이 필요한 자료\n2026년 업무 자료\n건축물 · 동 · 업무유형 · 회차를 기준으로 연결합니다.\n점검 목록 / 소규모 노후건축물 점검 / 2026년 2회차\n소규모 노후건축물 점검 · 2026년 2회차\n예시 주민회관 · 본동\n예시시 안전로 20 · 현장: 예시시 공공시설 점검사업\n자료·보고서 준비\n담당기관 예시 B점검기관\n일정 사업 일정 2026.09.30\n자료 기준일 2026.09.15\n현장자료 확인\n확인 중\n보고서\n의견 작성 필요\n플랫폼 내 결과 검토\n자료·보고서 준비\nBLCM 법정 처리\n별도 확인\n업무 요약\n현장 준비\n현장조사·결함\n보고서\n이전 회차·이력\n1. 현장 준비\n2. 현장자료 확인\n3. 보고서 준비\n4. 결과 공유\n5. 검토·보완\n6. 검토 완료\n현장 방문 전에 확인할 자료\n자료\t확인 상태\t열기\n건축물 개요·동 정보\t이번 점검 대상과 연결됨\t자료 정보\n이전 회차 점검기록\t2025년 1회차\t비교 보기\n평면도·위치 정보\t1층·2층·옥상\t위치 보기\n건축 BIM\t연계 완료\t3D 보기\n이전 지적 위치와 이번 점검범위를 먼저 확인합니다. 모델이 없는 건에서도 자료·사진·기록을 볼 수 있도록 구성합니다.\n업무 요약\n현장자료 확인으로\n이번 현장 범위\n계단실\n복도\n자료실\n1\n가상 근거 도식 · 실제 점검 사진 아님\n현장\n예시시 공공시설 점검사업\n대상\n예시 주민회관 · 본동\n이번 회차\n2026년 2회차\n확인할 위치\n계단실 벽 · 복도 천장 · 옥상 난간\n시안 검토 도구 · 전문기관 화면 · 현장 준비\n가상 자료만 사용 · 새로고침하면 초기화 · 외부 통신·저장 없음\n전체 화면 순서\n처음으로 초기화",
+  "links": [
+    {
+      "text": "분석 제안서",
+      "title": "",
+      "href": "report.html"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이 화면을 바꾼 이유",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물·점검 현황",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검결과·보고서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물·점검 이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "연결 확인이 필요한 자료",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검 목록",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "업무 요약",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현장 준비",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현장조사·결함",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "보고서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이전 회차·이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "자료 정보",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "비교 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "위치 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "3D 보기",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "업무 요약",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "현장자료 확인으로",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "처음으로 초기화",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1366,
+    "h": 900,
+    "sw": 1351,
+    "sh": 1292
+  },
+  "captured_at": "2026-09-15T14:28:31.362765+09:00"
+}

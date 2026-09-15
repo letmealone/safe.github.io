@@ -1,0 +1,238 @@
+{
+  "url": "https://safetywatch.duckdns.org/safety2/adminsys/risk/fire",
+  "title": "디지털 안전워치 플랫폼",
+  "text": "0 %\n\n간략 화재평가 결과\n\n스마트 검색\nView notifications\n1\n사용자 메뉴\n대시보드\nAPI 서비스\n포탈관리\nsBIM 데이터\n안전관리 업무\n건축물 위험도 평가\n시스템 관리\n관리자\n홈\n건축물 위험도 평가\n간략 화재평가 결과\n다운로드\n고위험 : 189 건\n위험 : 19148 건\n보통 : 3457 건\n우수 : 2205 건\n미등록 : 56141 건\n주소\t건물명\t건물명상세\t다중건축물여부\t간략화재평가\tHBS 구조등급\tHBS 화재등급\t간략내진평가\t관리건축물대장PK\t건축물관리번호\n경기도 고양시 덕양구 토당동 446\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t5418\n경기도 고양시 덕양구 북한동 252\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t21056\n경기도 고양시 덕양구 북한동 163\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t81727\n경기도 고양시 덕양구 북한동 15\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t21040\n경기도 고양시 덕양구 북한동 15\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t21039\n경기도 고양시 덕양구 북한동 227\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t21045\n경기도 고양시 덕양구 관산동 7-1\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t27214\n경기도 고양시 덕양구 지축동 589\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t80089\n경기도 고양시 덕양구 지축동 589\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t80091\n경기도 고양시 덕양구 성사동 255\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t81614\n경기도 고양시 덕양구 오금동 134\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t81022\n경기도 고양시 덕양구 덕은동 291\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t2818\n경기도 고양시 덕양구 관산동 635\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t1654\n경기도 고양시 덕양구 관산동 635\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t1652\n경기도 고양시 덕양구 관산동 635\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t1655\n경기도 고양시 덕양구 관산동 635\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t1653\n경기도 고양시 덕양구 원당동 640\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t18223\n경기도 고양시 덕양구 성사동 39\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t77807\n경기도 고양시 덕양구 행신동 313\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t80149\n경기도 고양시 덕양구 화정동 97\t\t\t건축물 대장정보 없음\t-\t\t\t\t\t15015\n총 81140 건\n1\n2\n3\n4\n5\n10개씩 보기\n20개씩 보기\n50개씩 보기\n100개씩 보기",
+  "links": [
+    {
+      "text": "홈",
+      "title": "",
+      "href": "#"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "스마트 검색",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "View notifications\n1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "사용자 메뉴",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "홈으로 이동"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "대시보드",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "API 서비스",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "포탈관리",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "sBIM 데이터",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "안전관리 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물 위험도 평가",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "시스템 관리",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "관리자",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": "Toggle dark mode"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "text": "",
+      "placeholder": "주소, 건물명, 건물명상세 검색...",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "text": "다운로드",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "1",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "2",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "3",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "4",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "5",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "",
+      "aria": null
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "text": "10개씩 보기\n20개씩 보기\n50개씩 보기\n100개씩 보기",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 1366,
+    "h": 768,
+    "sw": 1366,
+    "sh": 768
+  },
+  "captured_at": "2026-09-15T13:41:24.481057+09:00"
+}

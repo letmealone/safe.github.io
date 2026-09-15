@@ -1,0 +1,141 @@
+{
+  "url": "file:///Users/donghyukyi/Desktop/dowon/safetywatch_ux_review/workflow.html",
+  "title": "안전워치 — 로그인부터 결과 검토까지 가상 시안",
+  "text": "가상 시안 모든 이름·자료는 예시이며 실제 시스템과 연결되지 않습니다.\n분석 제안서\n이 화면을 바꾼 이유\n전체 화면 순서\n안전워치\n건축물 안전관리 업무 지원\n예시시 · 건축안전 담당\n관할: 예시시 전체 · 공무원\n공무원 업무\n내 업무\n건축물·점검 현황\n점검결과·보고서\n건축물·점검 이력\n관할 현황·대상 선별\n자료 확인\n연결 확인이 필요한 자료\n2026년 업무 자료\n건축물 · 동 · 업무유형 · 회차를 기준으로 연결합니다.\n관할 전체를 보는 업무\n관할 현황·대상 선별\n\n조회범위: 예시시 · 예시 후보 2건 · 자료 기준일 2026.09.15\n\n내 업무\n지도에서 분포를 확인하고, 후보의 근거와 기존 점검이력을 함께 검토합니다. 선별 후보는 현장 진단 결과나 법정 안전등급을 뜻하지 않습니다.\n후보 분포\n1\n예시 주민회관\n2\n예시 문화시설\n설명용 가상 지도 · 실제 좌표·지도 서비스 아님\n① 주민회관 후보 확인\n② 문화시설 자료 확인\n같은 조건의 후보 목록 · 2건\n후보 건축물·동\t확인할 이유\n예시 주민회관 · 본동\t이전 관찰기록 있음\n이번 회차 자료 확인 중\n예시 문화시설 · 나동\t대장 연결 확인 필요\n선별 근거 확정 전\n선별 근거를 읽는 방법\n\n출처·기준일·관측자료 유무를 먼저 확인합니다. 점수나 색상만으로 건축물의 안전 여부를 단정하지 않습니다.\n\n실제 조건 조회·AI 추천·후보 산출은 실행하지 않습니다. 이 화면은 지도에서 업무로 이어지는 구조를 보여줍니다.\n\n시안 검토 도구 · 공무원 화면 · 관할 지도·후보\n가상 자료만 사용 · 새로고침하면 초기화 · 외부 통신·저장 없음\n전체 화면 순서\n처음으로 초기화",
+  "links": [
+    {
+      "text": "분석 제안서",
+      "title": "",
+      "href": "report.html"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "이 화면을 바꾼 이유",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물·점검 현황",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "점검결과·보고서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "건축물·점검 이력",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "관할 현황·대상 선별",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "연결 확인이 필요한 자료",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "내 업무",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "① 주민회관 후보 확인",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "② 문화시설 자료 확인",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "예시 주민회관 · 본동",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "예시 문화시설 · 나동",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "전체 화면 순서",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "text": "처음으로 초기화",
+      "aria": null
+    }
+  ],
+  "size": {
+    "w": 2560,
+    "h": 1322,
+    "sw": 2560,
+    "sh": 1322
+  },
+  "captured_at": "2026-09-15T14:43:21.799236+09:00"
+}
