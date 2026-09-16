@@ -1,0 +1,4 @@
+# Static HTML, CSS, and JavaScript are served directly from the repository root.
+[build]
+  command = ""
+  publish = "."
